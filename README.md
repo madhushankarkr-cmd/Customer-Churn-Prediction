@@ -74,6 +74,16 @@ The features cover customer demographics, account information (tenure, contract,
 | **Model Persistence** | Joblib |
 
 ---
+##  Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://customer-churn-prediction-fcwb7heyjeyuwziwhxcnir.streamlit.app/)
+
+**Try it live:**  
+-> [https://customer-churn-prediction-fcwb7heyjeyuwziwhxcnir.streamlit.app/](https://customer-churn-prediction-fcwb7heyjeyuwziwhxcnir.streamlit.app/)
+
+The application predicts customer churn risk based on customer demographics, subscription details, billing information, and service usage.
+
+---
 
 ##  Project Workflow
 
