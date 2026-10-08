@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📉 Customer Churn Prediction
+#  Customer Churn Prediction
 
 ### End-to-End Machine Learning Project with Streamlit Deployment
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Problem Statement](#-problem-statement)
