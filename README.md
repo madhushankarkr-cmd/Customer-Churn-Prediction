@@ -35,13 +35,13 @@
 
 ---
 
-## 🔎 Overview
+##  Overview
 
 This project builds a complete machine learning pipeline to predict customer churn for a telecom company. It covers data cleaning, exploratory data analysis, preprocessing, training and comparing three models, and deploying the best one as an interactive **Streamlit** web app where a user can enter customer details and get an instant churn prediction.
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Customer churn is a major issue for subscription-based businesses, and losing customers directly reduces revenue. Acquiring a new customer is usually more expensive than retaining an existing one.
 
@@ -49,7 +49,7 @@ Customer churn is a major issue for subscription-based businesses, and losing cu
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 | Property | Details |
 |----------|---------|
@@ -62,7 +62,7 @@ The features cover customer demographics, account information (tenure, contract,
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -75,7 +75,7 @@ The features cover customer demographics, account information (tenure, contract,
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 **1. Data Cleaning**
 - Dropped the `customerID` column (identifier, no predictive value)
@@ -104,40 +104,48 @@ The features cover customer demographics, account information (tenure, contract,
 
 ---
 
-## 📈 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 ### Churn Distribution
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution](<img width="549" height="393" alt="churn_distribution png" src="https://github.com/user-attachments/assets/6c4a985a-f0b4-49fb-a448-12d312da85cd" />
+)
 
 ### Contract Type vs Churn
-![Contract vs Churn](images/contract_vs_churn.png)
+![Contract vs Churn](<img width="704" height="470" alt="contract_vs_churn png" src="https://github.com/user-attachments/assets/2f2a8318-7b3d-462a-8cae-c5ce8a3faf44" />
+)
 
 ### Internet Service vs Churn
-![Internet Service vs Churn](images/internet_service_vs_churn.png)
+![Internet Service vs Churn](<img width="704" height="470" alt="internet_service_vs_churn png" src="https://github.com/user-attachments/assets/26eebe97-0457-440e-bedc-5b3728820ccd" />
+)
 
 ### Tenure vs Churn
-![Tenure vs Churn](images/tenure_vs_churn.png)
+![Tenure vs Churn](<img width="686" height="470" alt="tenure_vs_churn png" src="https://github.com/user-attachments/assets/96cbfec7-5a76-4a62-8a9d-e7102a3064c9" />
+)
 
 ### Monthly Charges vs Churn
-![Monthly Charges vs Churn](images/monthly_charges_vs_churn.png)
+![Monthly Charges vs Churn](<img width="695" height="470" alt="monthly_charges_vs_churn png" src="https://github.com/user-attachments/assets/04761fe1-b3f1-4f99-9b0d-3cda3cc267d8" />
+)
 
 <details>
 <summary><b>More visualizations</b></summary>
 
 ### Online Security vs Churn
-![Online Security vs Churn](images/online_security_vs_churn.png)
+![Online Security vs Churn](<img width="704" height="470" alt="online_security_vs_churn png" src="https://github.com/user-attachments/assets/20b0aed9-e099-4788-9d46-101605485cbe" />
+)
 
 ### Tech Support vs Churn
-![Tech Support vs Churn](images/tech_support_vs_churn.png)
+![Tech Support vs Churn](<img width="704" height="470" alt="tech_support_vs_churn png" src="https://github.com/user-attachments/assets/2371b6a2-8912-49fd-8299-7d27e7851357" />
+)
 
 ### Payment Method vs Churn
-![Payment Method vs Churn](images/payment_method_vs_churn.png)
+![Payment Method vs Churn](<img width="859" height="593" alt="payment_method_vs_churn png" src="https://github.com/user-attachments/assets/df3919fb-a012-49c2-9b86-28f35a08353d" />
+)
 
 </details>
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 - **Contract type matters most:** customers on **month-to-month** contracts have the highest churn rate.
 - **Internet service:** **Fiber optic** users churn more than DSL users.
@@ -153,7 +161,7 @@ The features cover customer demographics, account information (tenure, contract,
 
 ---
 
-## 🏆 Model Performance
+##  Model Performance
 
 Metrics for the churn class are reported on the held-out 20% test set.
 
@@ -163,13 +171,13 @@ Metrics for the churn class are reported on the held-out 20% test set.
 | Random Forest | 0.79 | 0.62 | 0.51 | 0.56 | 0.816 |
 | XGBoost | 0.77 | 0.58 | 0.53 | 0.55 | 0.811 |
 
-**✅ Best model: Logistic Regression**, which scored highest on every metric and was selected for deployment.
+** Best model: Logistic Regression**, which scored highest on every metric and was selected for deployment.
 
 > **Note:** The dataset is imbalanced (far fewer churners than non-churners), which limits recall on the churn class. Addressing this with SMOTE and threshold tuning is planned under [Future Improvements](#-future-improvements).
 
 ---
 
-## 🖥 Streamlit App
+##  Streamlit App
 
 The app lets a user enter customer details (contract, tenure, internet service, charges, add-on services, etc.) and returns:
 
@@ -180,11 +188,11 @@ The app lets a user enter customer details (contract, tenure, internet service, 
 ![Streamlit App](images/app_screenshot.png)
 -->
 
-🔗 **Live demo:** *Coming soon (planned deployment on Streamlit Cloud)*
+ **Live demo:** *Coming soon (planned deployment on Streamlit Cloud)*
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 customer-churn-prediction/
@@ -211,7 +219,7 @@ customer-churn-prediction/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 **1. Clone the repository**
 ```bash
@@ -241,7 +249,7 @@ To reproduce the analysis and training, open `notebooks/Customer_Churn_Predictio
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - [ ] Handle class imbalance using **SMOTE**
 - [ ] **Hyperparameter tuning** (GridSearchCV / RandomizedSearchCV)
@@ -251,17 +259,17 @@ To reproduce the analysis and training, open `notebooks/Customer_Churn_Predictio
 
 ---
 
-## 👤 Author
+##  Author
 
-**Hari Shankar Kumar**
+**Madhu Shankar Kumar**
 AI & Data Science Student
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/madhushankarkr-cmd)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/madhu-shankar-kumar-74563537b/)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Dataset: [IBM Sample Data Sets, Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
@@ -269,6 +277,6 @@ AI & Data Science Student
 
 <div align="center">
 
-⭐ If you found this project useful, consider giving it a star!
+ If you found this project useful, consider giving it a star!
 
 </div>
