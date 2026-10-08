@@ -106,40 +106,42 @@ The features cover customer demographics, account information (tenure, contract,
 
 ##  Exploratory Data Analysis
 
+## Exploratory Data Analysis
+
 ### Churn Distribution
-![Churn Distribution](<img width="549" height="393" alt="churn_distribution png" src="https://github.com/user-attachments/assets/6c4a985a-f0b4-49fb-a448-12d312da85cd" />
-)
+
+<img width="549" height="393" alt="Churn Distribution" src="https://github.com/user-attachments/assets/6c4a985a-f0b4-49fb-a448-12d312da85cd">
 
 ### Contract Type vs Churn
-![Contract vs Churn](<img width="704" height="470" alt="contract_vs_churn png" src="https://github.com/user-attachments/assets/2f2a8318-7b3d-462a-8cae-c5ce8a3faf44" />
-)
+
+<img width="704" height="470" alt="Contract Type vs Churn" src="https://github.com/user-attachments/assets/2f2a8318-7b3d-462a-8cae-c5ce8a3faf44">
 
 ### Internet Service vs Churn
-![Internet Service vs Churn](<img width="704" height="470" alt="internet_service_vs_churn png" src="https://github.com/user-attachments/assets/26eebe97-0457-440e-bedc-5b3728820ccd" />
-)
+
+<img width="704" height="470" alt="Internet Service vs Churn" src="https://github.com/user-attachments/assets/26eebe97-0457-440e-bedc-5b3728820ccd">
 
 ### Tenure vs Churn
-![Tenure vs Churn](<img width="686" height="470" alt="tenure_vs_churn png" src="https://github.com/user-attachments/assets/96cbfec7-5a76-4a62-8a9d-e7102a3064c9" />
-)
+
+<img width="686" height="470" alt="Tenure vs Churn" src="https://github.com/user-attachments/assets/96cbfec7-5a76-4a62-8a9d-e7102a3064c9">
 
 ### Monthly Charges vs Churn
-![Monthly Charges vs Churn](<img width="695" height="470" alt="monthly_charges_vs_churn png" src="https://github.com/user-attachments/assets/04761fe1-b3f1-4f99-9b0d-3cda3cc267d8" />
-)
+
+<img width="695" height="470" alt="Monthly Charges vs Churn" src="https://github.com/user-attachments/assets/04761fe1-b3f1-4f99-9b0d-3cda3cc267d8">
 
 <details>
 <summary><b>More visualizations</b></summary>
 
 ### Online Security vs Churn
-![Online Security vs Churn](<img width="704" height="470" alt="online_security_vs_churn png" src="https://github.com/user-attachments/assets/20b0aed9-e099-4788-9d46-101605485cbe" />
-)
+
+<img width="704" height="470" alt="Online Security vs Churn" src="https://github.com/user-attachments/assets/20b0aed9-e099-4788-9d46-101605485cbe">
 
 ### Tech Support vs Churn
-![Tech Support vs Churn](<img width="704" height="470" alt="tech_support_vs_churn png" src="https://github.com/user-attachments/assets/2371b6a2-8912-49fd-8299-7d27e7851357" />
-)
+
+<img width="704" height="470" alt="Tech Support vs Churn" src="https://github.com/user-attachments/assets/2371b6a2-8912-49fd-8299-7d27e7851357">
 
 ### Payment Method vs Churn
-![Payment Method vs Churn](<img width="859" height="593" alt="payment_method_vs_churn png" src="https://github.com/user-attachments/assets/df3919fb-a012-49c2-9b86-28f35a08353d" />
-)
+
+<img width="859" height="593" alt="Payment Method vs Churn" src="https://github.com/user-attachments/assets/df3919fb-a012-49c2-9b86-28f35a08353d">
 
 </details>
 
