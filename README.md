@@ -81,6 +81,11 @@ The features cover customer demographics, account information (tenure, contract,
 **Try it live:**  
 -> [https://customer-churn-prediction-fcwb7heyjeyuwziwhxcnir.streamlit.app/](https://customer-churn-prediction-fcwb7heyjeyuwziwhxcnir.streamlit.app/)
 
+##  Frontend Preview
+
+<img width="416" height="533" alt="Customer Churn Prediction Dashboard" src="https://github.com/user-attachments/assets/74a2a911-6e7e-45ea-b7ea-c6d3ebd37158" />
+
+
 The application predicts customer churn risk based on customer demographics, subscription details, billing information, and service usage.
 
 ---
