@@ -119,8 +119,6 @@ The application predicts customer churn risk based on customer demographics, sub
 
 ---
 
-##  Exploratory Data Analysis
-
 ## Exploratory Data Analysis
 
 ### Churn Distribution
